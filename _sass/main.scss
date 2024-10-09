@@ -72,3 +72,19 @@ hr {
         }
     }
 }
+
+.badge-image {
+    width: 65px; /* Tamaño pequeño para las imágenes */
+    height: auto; /* Mantener la proporción original */
+    border-radius: 5px; /* Opción: bordes redondeados */
+    transition: transform 0.2s ease; /* Efecto suave al pasar sobre la imagen */
+}
+
+.badge-image:hover {
+    transform: scale(1.05); /* Efecto de zoom suave */
+}
+
+/* Centrar las columnas */
+.columns.is-centered {
+    justify-content: center;
+}
