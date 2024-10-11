@@ -80,6 +80,10 @@ hr {
     transition: transform 0.2s ease; /* Efecto suave al pasar sobre la imagen */
 }
 
+.flutter-logo {
+    background-color: #FFFFFF /*el aspecto original de la imagen */
+}
+
 .badge-image:hover {
     transform: scale(1.05); /* Efecto de zoom suave */
 }
