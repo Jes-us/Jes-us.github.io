@@ -1,6 +1,6 @@
 markdown: kramdown
 url: ''
-baseurl: null
+baseurl: ''
 title: Jesus Rodriguez
 description: 'Fullstack Mobille Developer using Flutter, NodeJS y Google Cloud'
 site-image: /WhatATheme/assets/images/meta.jpg
@@ -24,9 +24,12 @@ disqus-shortname: Jesus Rodriguez
 author-name: Jesus Rodriguez
 author-image: /assets/images/author.jpeg
 author-about: >-
-  Soy un profesional creativo, me encanta convertir ideas en nuevos productos,
-  muy enfocado en resultados, trabajo en equipo, poseo buenas habilidades
-  técnicas, resolución de problemas y muy buenas habilidades de comunicación.
+  Soy un desarrollador de aplicaciones para dispositivos móviles apasionado por
+  crear experiencias de usuario cautivadoras. Mi enfoque se centra en combinar
+  un diseño intuitivo con una arquitectura robusta que facilite la creación de
+  código escalable y mantenible.
+
+   Además de mi experiencia en desarrollo móvil, tengo una sólida trayectoria en el desarrollo de backend, lo que me permite integrar de manera efectiva la lógica del servidor con las interfaces de usuario. Esta combinación de habilidades me permite ofrecer soluciones completas que no solo cumplen con los requisitos funcionales, sino que también garantizan un rendimiento óptimo y una excelente experiencia para el usuario.
 author-url: www.linkedin.com/in/jesús-rodríguez-14a297179
 sass:
   sass_dir: _sass

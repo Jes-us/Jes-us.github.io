@@ -92,3 +92,102 @@ hr {
 .columns.is-centered {
     justify-content: center;
 }
+
+
+/* Estilos solo para la página Food Tracker */
+/* Estilos solo para la página Food Tracker */
+.food-tracker-page .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.food-tracker-page .content-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las columnas se ajusten en pantallas pequeñas */
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.food-tracker-page .video-container {
+  flex: 1 1 300px;
+  max-width: 500px;
+  margin-right: 20px;
+}
+
+.food-tracker-page .description-container {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.food-tracker-page .video-phone {
+  width: 100%;
+  padding-top: 177.78%; /* Relación de aspecto 9:16 para simular un teléfono */
+  position: relative;
+}
+
+.food-tracker-page .video-phone iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px; /* Añade bordes redondeados al video */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para simular un teléfono */
+}
+
+.food-tracker-page h2 {
+  margin-bottom: 10px;
+}
+
+.food-tracker-page p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .food-tracker-page .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .food-tracker-page .video-container, 
+  .food-tracker-page .description-container {
+    max-width: 100%;
+  }
+}
+
+//Fin estilo proyecto Food Tracker  
+
+//Estilo para la project card
+/* Ajustar la figura para íconos */
+.icon-figure {
+  height: 100px; /* Ajusta el tamaño del ícono */
+  width: 100px;
+  margin: 0 auto; /* Centra el ícono */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px; /* Si quieres bordes redondeados */
+}
+
+/* Ajustes para la tarjeta */
+.card {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Ajustar las dimensiones de las columnas en pantallas pequeñas */
+@media (max-width: 768px) {
+  .icon-figure {
+    height: 80px; /* Tamaño más pequeño para pantallas móviles */
+    width: 80px;
+  }
+}
+//Fin estilo project card
